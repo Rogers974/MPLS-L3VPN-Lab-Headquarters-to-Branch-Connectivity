@@ -1,3 +1,4 @@
+<img width="1855" height="728" alt="MPLS" src="https://github.com/user-attachments/assets/ad08162e-038c-4761-b046-c4288e534bef" />
 
 # MPLS L3VPN Lab – Headquarters to Branch Connectivity
 
