@@ -123,6 +123,5 @@ Router Image: Cisco IOS XRv 6.1.3
 
 ## Author
 
-Network Engineering Lab Project
+Engineer Rogers Mulyowa 
 
-Designed to demonstrate real-world **Service Provider MPLS VPN architecture.**<img width="1855" height="728" alt="MPLS" src="https://github.com/user-attachments/assets/62e09fee-a24d-48bf-967e-c5cfe60902af" />
