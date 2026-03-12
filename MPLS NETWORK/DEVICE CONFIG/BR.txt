@@ -1,0 +1,14 @@
+
+interface Loopback0
+ ip address 6.6.6.6 255.255.255.255
+!
+interface Ethernet0/0
+ ip address 206.200.100.2 255.255.255.252
+ duplex auto
+!
+router ospf 1
+ router-id 6.6.6.6
+ network 6.6.6.6 0.0.0.0 area 2
+ network 206.200.100.0 0.0.0.3 area 2
+!
+

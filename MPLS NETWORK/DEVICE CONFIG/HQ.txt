@@ -1,0 +1,16 @@
+
+hostname HQ
+!
+interface Loopback0
+ ip address 4.4.4.4 255.255.255.255
+!
+interface Ethernet0/0
+ ip address 105.100.50.2 255.255.255.252
+ duplex auto
+!
+router ospf 1
+ router-id 4.4.4.4
+ network 4.4.4.4 0.0.0.0 area 2
+ network 105.100.50.0 0.0.0.3 area 2
+!
+
